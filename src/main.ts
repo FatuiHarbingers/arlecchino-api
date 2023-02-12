@@ -8,7 +8,7 @@ export const InterwikiValidator = s.string.regex( InterwikiRegex )
 
 export const SnowflakeValidator = s.string.regex( SnowflakeRegex )
 
-export const enum Routes {
+export enum Routes {
 	CHANNELS = 'channels/:guildId',
 	CONFIGURATIONS = 'configurations/:guildId',
 	GUILD = 'guilds/:guildId'
