@@ -13,6 +13,14 @@
     "lint:fix": "eslint src/ --fix --ext .ts --cache",
     "start": "yarn node dist/main.js"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/main.mjs",
+      "require": "./dist/main.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
+  "types": "dist/main.d.ts",
   "packageManager": "yarn@3.4.1",
   "devDependencies": {
     "@bitomic/eslint-config": "^1.2.0",
@@ -21,13 +29,19 @@
     "@types/node": "^18.13.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
+    "discord-api-types": "^0.37.33",
     "eslint": "^8.34.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.1",
     "rimraf": "^4.1.2",
+    "tsup": "^6.6.2",
     "typescript": "^4.9.5"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@sapphire/discord-utilities": "^3.0.0",
+    "@sapphire/shapeshift": "^3.8.1"
   }
 }
