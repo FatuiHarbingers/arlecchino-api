@@ -10,3 +10,12 @@ export const SnowflakeValidator = s.string.regex( SnowflakeRegex )
 export type MaybeError<T> = T | {
 	error: string
 }
+
+export enum ProfileType {
+	DEFAULT,
+	DISCUSSIONS,
+	LOGEVENTS,
+	RECENTCHANGES
+}
+
+export const ProfileTypeValidator = s.enum<ProfileType>( ProfileType.DEFAULT, ProfileType.DISCUSSIONS, ProfileType.LOGEVENTS, ProfileType.RECENTCHANGES )

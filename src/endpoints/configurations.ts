@@ -13,10 +13,7 @@ export const ConfigurationsDELETEValidator = s.object<ConfigurationsDELETEReques
 } ).strict
 
 export type ConfigurationsGETResponse = MaybeError<Array<{
-	avatar?: string
 	channel: string
-	color?: number
-	name?: string
 	wiki: string
 }>>
 
