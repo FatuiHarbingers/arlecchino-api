@@ -24,6 +24,7 @@ export type ProfilesGETResponse = MaybeError<Array<{
 	color?: number
 	name?: string
 	type: ProfileType
+	wiki: string
 }>>
 
 export const ProfilesGETValidator = s.object<ProfilesGETRequest>( {
