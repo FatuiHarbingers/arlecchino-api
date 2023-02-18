@@ -1,4 +1,3 @@
-import { EmbedLimits } from '@sapphire/discord-utilities'
 import { s } from '@sapphire/shapeshift'
 import { InterwikiValidator, type MaybeError, SnowflakeValidator } from '../utils'
 
