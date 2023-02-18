@@ -12,7 +12,7 @@ export function getRoute( route: Routes, replace: Replacer<string> | undefined =
 	let result: string = route
 	if ( replace ) {
 		for ( const [ key, value ] of Object.entries( replace ) ) {
-			result = result.replace( key, value )
+			result = result.replace( `:${ key }`, value )
 		}
 	}
 	return result
