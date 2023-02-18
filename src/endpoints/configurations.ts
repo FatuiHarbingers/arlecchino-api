@@ -6,7 +6,7 @@ export interface ConfigurationsDELETERequest {
 	wiki: string
 }
 
-export type ConfigurationsDELETEResponse = never
+export type ConfigurationsDELETEResponse = MaybeError<never | null>
 
 export const ConfigurationsDELETEValidator = s.object<ConfigurationsDELETERequest>( {
 	wiki: InterwikiValidator
