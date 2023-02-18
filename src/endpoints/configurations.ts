@@ -18,10 +18,7 @@ export type ConfigurationsGETResponse = MaybeError<Array<{
 }>>
 
 export interface ConfigurationPOSTRequest {
-	avatar?: string
 	channel: string
-	color?: number
-	name?: string
 	update?: boolean
 	wiki: string
 }
@@ -29,10 +26,7 @@ export interface ConfigurationPOSTRequest {
 export type ConfigurationPOSTResponse = MaybeError<ConfigurationPOSTRequest>
 
 export const ConfigurationPOSTValidator = s.object<ConfigurationPOSTRequest>( {
-	avatar: s.string.url().optional,
 	channel: SnowflakeValidator,
-	color: s.number.greaterThanOrEqual( 0 ).lessThanOrEqual( 0xffffff ).optional,
-	name: s.string.lengthGreaterThan( 0 ).lengthLessThanOrEqual( EmbedLimits.MaximumAuthorNameLength ).optional,
 	update: s.boolean.default( false ),
 	wiki: InterwikiValidator
 } )
