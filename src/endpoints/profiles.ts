@@ -28,8 +28,8 @@ export type ProfilesGETResponse = MaybeError<Array<{
 }>>
 
 export const ProfilesGETValidator = s.object<ProfilesGETRequest>( {
-	type: ProfileTypeValidator,
-	wiki: InterwikiValidator
+	type: ProfileTypeValidator.optional,
+	wiki: InterwikiValidator.optional
 } )
 
 export interface ProfilesPOSTRequest {
