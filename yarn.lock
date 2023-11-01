@@ -19,8 +19,8 @@ __metadata:
     "@bitomic/eslint-config": ^1.3.0
     "@commitlint/cli": ^17.8.1
     "@commitlint/config-conventional": ^17.8.1
-    "@sapphire/discord-utilities": ^3.0.0
-    "@sapphire/shapeshift": ^3.8.1
+    "@sapphire/discord-utilities": ^3.1.1
+    "@sapphire/shapeshift": ^3.9.3
     "@types/node": ^18.18.8
     "@typescript-eslint/eslint-plugin": ^5.51.0
     "@typescript-eslint/parser": ^5.51.0
@@ -573,22 +573,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/discord-utilities@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@sapphire/discord-utilities@npm:3.0.0"
+"@sapphire/discord-utilities@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@sapphire/discord-utilities@npm:3.1.1"
   dependencies:
-    discord-api-types: ^0.37.25
-  checksum: c17ddb5c663fb474e134f881bfa9fb803bdb315220894079c92966b72208ae52f4a995faae2701519d99690f0ed591d7e9995e8c7ffc36821435fd454af5d4b1
+    discord-api-types: ^0.37.55
+  checksum: 423c9cd541d2dbdbcaa18d7793ae40d557808c348d7fea1c6963b249bb647df3b99ac3fb24024820c8e84ae4300560d927cd7a3cefbf22fa0f0dfd49f5764ee8
   languageName: node
   linkType: hard
 
-"@sapphire/shapeshift@npm:^3.8.1":
-  version: 3.8.1
-  resolution: "@sapphire/shapeshift@npm:3.8.1"
+"@sapphire/shapeshift@npm:^3.9.3":
+  version: 3.9.3
+  resolution: "@sapphire/shapeshift@npm:3.9.3"
   dependencies:
     fast-deep-equal: ^3.1.3
     lodash: ^4.17.21
-  checksum: 2a5954c76ee9a91506ae269141ffd2d71e05891c7f1618d0acbf3670312f0b473e356f9c3dafe484d8dc89282d7554f1fd7d720a2a3b0e921fb4e969d09513ee
+  checksum: f93ab924566dc20a066776128eeb3693b97a1576a359b61d396835541f2bf8ecb3f482ff406cc038a3a4bc266d5f9b9f9e1c733ddbf1cce2c97c729ce047b5e6
   languageName: node
   linkType: hard
 
@@ -1477,14 +1477,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-api-types@npm:^0.37.25":
-  version: 0.37.33
-  resolution: "discord-api-types@npm:0.37.33"
-  checksum: d1e31106081ef79d3ea721b8991c5de155879e6d01c47a025b2c41e0496b551608e72e383caf23680938219099b6c3bd43cbacf48edeb7fc9a3c1730c1811ba8
-  languageName: node
-  linkType: hard
-
-"discord-api-types@npm:^0.37.62":
+"discord-api-types@npm:^0.37.55, discord-api-types@npm:^0.37.62":
   version: 0.37.62
   resolution: "discord-api-types@npm:0.37.62"
   checksum: 1d9aafab1ad29f9951f039de7e4e8ee48c766775068abad0730e576298b8b4da52572eb0e56802b16f04f24116c957072646e75c7953db8928e6fbedd9047cc5
