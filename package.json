@@ -30,7 +30,7 @@
     "@types/node": "^20.11.16",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "discord-api-types": "^0.37.67",
+    "discord-api-types": "^0.37.68",
     "eslint": "^8.56.0",
     "husky": "^9.0.10",
     "lint-staged": "^15.2.1",
