@@ -33,7 +33,7 @@
     "discord-api-types": "^0.37.93",
     "eslint": "^8.57.0",
     "husky": "^9.1.4",
-    "lint-staged": "^15.2.7",
+    "lint-staged": "^15.2.8",
     "rimraf": "^6.0.1"
   },
   "publishConfig": {
