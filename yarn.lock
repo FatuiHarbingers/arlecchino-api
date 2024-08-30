@@ -19,7 +19,7 @@ __metadata:
     "@bitomic/eslint-config": ^1.3.0
     "@commitlint/cli": ^19.4.1
     "@commitlint/config-conventional": ^19.4.1
-    "@sapphire/discord-utilities": ^3.3.0
+    "@sapphire/discord-utilities": ^3.4.0
     "@sapphire/shapeshift": ^3.9.7
     "@types/node": ^20.16.2
     "@typescript-eslint/eslint-plugin": ^5.62.0
@@ -556,12 +556,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/discord-utilities@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "@sapphire/discord-utilities@npm:3.3.0"
+"@sapphire/discord-utilities@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@sapphire/discord-utilities@npm:3.4.0"
   dependencies:
-    discord-api-types: ^0.37.84
-  checksum: 38679cb2fa6e1fb487fcd4f87a1e75357252c0e164df7e4dcfbe110dae52bad601e246589d9f1b20f414f72c0072bfa16fa60fd80d276b04be986a66c2ef3a77
+    discord-api-types: ^0.37.97
+  checksum: 3a9e63fb36f8faf03ba89d39dd9ba040550a13e98a2a11c2d31a0fef6d0064353844359daaea7d30484ff8fbdc3f684bdd28bad2e51d9a349b1f2e66993bbe00
   languageName: node
   linkType: hard
 
@@ -1377,14 +1377,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-api-types@npm:^0.37.84":
-  version: 0.37.84
-  resolution: "discord-api-types@npm:0.37.84"
-  checksum: e557ef582c20a2d8425b66b915f15caef138cff4257104f08fb97d78595694b7756dee617abc94a750f438292910c4e7a9a2933494a3e0de4a0d40b1d276aec0
-  languageName: node
-  linkType: hard
-
-"discord-api-types@npm:^0.37.98":
+"discord-api-types@npm:^0.37.97, discord-api-types@npm:^0.37.98":
   version: 0.37.98
   resolution: "discord-api-types@npm:0.37.98"
   checksum: 3e08442fe886c5556680ad8415d3253adeb4a1ea9a9a17e26e0dd55d38c239178da89479983b807dc53a781a26e3ff87a1ed4ee6e5d06f4cc7e203f898f27180
