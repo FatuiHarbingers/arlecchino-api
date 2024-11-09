@@ -19,7 +19,7 @@ __metadata:
     "@bitomic/eslint-config": ^1.3.0
     "@commitlint/cli": ^19.5.0
     "@commitlint/config-conventional": ^19.5.0
-    "@sapphire/discord-utilities": ^3.4.2
+    "@sapphire/discord-utilities": ^3.4.3
     "@sapphire/shapeshift": ^3.9.7
     "@types/node": ^22.9.0
     "@typescript-eslint/eslint-plugin": ^5.62.0
@@ -555,12 +555,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/discord-utilities@npm:^3.4.2":
-  version: 3.4.2
-  resolution: "@sapphire/discord-utilities@npm:3.4.2"
+"@sapphire/discord-utilities@npm:^3.4.3":
+  version: 3.4.3
+  resolution: "@sapphire/discord-utilities@npm:3.4.3"
   dependencies:
     discord-api-types: 0.37.100
-  checksum: f0a0b1afdbd6f483be11c321fa0f8c0a2fb23f259d5270a436d8ccadb79f8dd565dec35a604c76b1dd9486b7b2b3d934af3deb508a64bef1a160aad6702ef774
+  checksum: 88e50a14886133892657ffd2120082f0a8c1d13b302b134be6f3a56575f9a01507ac9701264af8bf6e2cd3c25e58c749ef2872fe3333b586c0a19535a75555e0
   languageName: node
   linkType: hard
 
