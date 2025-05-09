@@ -24,7 +24,7 @@ __metadata:
     "@types/node": ^22.15.17
     "@typescript-eslint/eslint-plugin": ^5.62.0
     "@typescript-eslint/parser": ^5.62.0
-    discord-api-types: ^0.38.3
+    discord-api-types: ^0.38.4
     eslint: ^8.57.1
     husky: ^9.1.7
     lint-staged: ^15.5.2
@@ -1383,10 +1383,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-api-types@npm:^0.38.1, discord-api-types@npm:^0.38.3":
+"discord-api-types@npm:^0.38.1":
   version: 0.38.3
   resolution: "discord-api-types@npm:0.38.3"
   checksum: a91b10e10f0b9c600a92cdea03a7bb11cf71fb8df0d196635c86a55165283c92eda7607e2a75fabd041f32c51e445831507fdd0d55157a1139c842c2af597102
+  languageName: node
+  linkType: hard
+
+"discord-api-types@npm:^0.38.4":
+  version: 0.38.4
+  resolution: "discord-api-types@npm:0.38.4"
+  checksum: d17b15b4d4fdd7862a025c4c0f7bc20df4da7b5ab836764440c521ecaf6f0a3d36fd4b6618e118324cbb50691a07b03e63d191c97de59f019c68613bff8ef6b3
   languageName: node
   linkType: hard
 
