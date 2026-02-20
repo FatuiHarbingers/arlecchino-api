@@ -31,7 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "discord-api-types": "^0.38.40",
-    "eslint": "^8.57.1",
+    "eslint": "^10.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "rimraf": "^6.1.3"
