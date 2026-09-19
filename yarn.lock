@@ -21,7 +21,7 @@ __metadata:
     "@commitlint/config-conventional": ^21.2.0
     "@sapphire/discord-utilities": ^3.5.0
     "@sapphire/shapeshift": ^3.9.7
-    "@types/node": ^24.13.3
+    "@types/node": ^24.13.6
     "@typescript-eslint/eslint-plugin": ^5.62.0
     "@typescript-eslint/parser": ^5.62.0
     discord-api-types: ^0.38.53
@@ -687,12 +687,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.13.3":
-  version: 24.13.3
-  resolution: "@types/node@npm:24.13.3"
+"@types/node@npm:^24.13.6":
+  version: 24.13.6
+  resolution: "@types/node@npm:24.13.6"
   dependencies:
     undici-types: ~7.18.0
-  checksum: e3f2142e02dd7b44885bf16d5438e7d510c5917a272011ac594665fe38f453dea810cb4c8cd989d6cbaf769d46dbaf017eee4bdbf4246737f2b6c6774e093332
+  checksum: 503acaddfe1fdbaf894c1d4be792d62f69b573fa70644f4d3bfd5e830f4071d9ec4dcc8d6394312e49e9b0acda41e8980fd921b07ab950c1fe70866a703f07d6
   languageName: node
   linkType: hard
 
