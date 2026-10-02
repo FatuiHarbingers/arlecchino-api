@@ -21,7 +21,7 @@ __metadata:
     "@commitlint/config-conventional": ^21.2.0
     "@sapphire/discord-utilities": ^3.5.0
     "@sapphire/shapeshift": ^3.9.7
-    "@types/node": ^24.13.3
+    "@types/node": ^24.19.1
     "@typescript-eslint/eslint-plugin": ^5.62.0
     "@typescript-eslint/parser": ^5.62.0
     discord-api-types: ^0.38.53
@@ -687,12 +687,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.13.3":
-  version: 24.13.3
-  resolution: "@types/node@npm:24.13.3"
+"@types/node@npm:^24.19.1":
+  version: 24.19.1
+  resolution: "@types/node@npm:24.19.1"
   dependencies:
-    undici-types: ~7.18.0
-  checksum: e3f2142e02dd7b44885bf16d5438e7d510c5917a272011ac594665fe38f453dea810cb4c8cd989d6cbaf769d46dbaf017eee4bdbf4246737f2b6c6774e093332
+    undici-types: ">=7.24.0 <7.24.7"
+  checksum: 2d3a555fe260fa741213a4e2450336337bdebf476091a6a5996dc7edab2e3b44252c8e64ff1026f020499123d86a42120881f70417723feb6d91ed0ae94bcea5
   languageName: node
   linkType: hard
 
@@ -3380,10 +3380,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~7.18.0":
-  version: 7.18.2
-  resolution: "undici-types@npm:7.18.2"
-  checksum: 23da306c8366574adec305b06a8519ab5c7d09e3f5d16c1a98709a34fae17da09ec95198f30f86c00055e02efa8bfcc843e84e8aebeb9b8d6bb3e06afccae07a
+"undici-types@npm:>=7.24.0 <7.24.7":
+  version: 7.24.6
+  resolution: "undici-types@npm:7.24.6"
+  checksum: e79802e37dc472c6324850d938b5df6b9e796f6a1bb5f8ccd24f3a6d17eae94a9cc125506c8b339a3293ffbad81daeba30b843e564c1d237b3c8deafd98b6267
   languageName: node
   linkType: hard
 
